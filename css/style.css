@@ -2,12 +2,15 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: #789bba;
   padding: 15px;
 }
 header ul {
   float: right;
   color: white;
+  padding-right: 20px;
+  padding-top: 110px;
+
 }
 header li {
   display: inline-block;
@@ -19,6 +22,7 @@ header p {
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
+
 }
 .content {
   max-width: 300px;
@@ -35,7 +39,7 @@ button {
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #789bba;
   padding: 5px;
   color: white;
 }
@@ -59,7 +63,7 @@ footer li {
 }
 .flexContainer div {
   width: 33%;
-  padding: 25px;
+  padding: 20px;
 }
 
 /* My Work Section */
@@ -82,16 +86,29 @@ footer li {
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
+  align-content: right;
 }
 .img1 {
   grid-area: img1;
+  height: 250px;
+  width: 250px;
+  background-color: #FFFFFF;
+
 }
 .img2 {
   grid-area: img2;
+  height: 250px;
+  width: 250px;
+  background-color: #FFFFFF;
+
 }
 .img3 {
   grid-area: img3;
+  height: 250px;
+  width: 250px;
+  background-color: #FFFFFF;
+
 }
 .img1, .img2, .img3, .content1, .content2, .content3 {
   padding: 80px;
