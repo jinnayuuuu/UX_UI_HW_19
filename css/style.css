@@ -65,6 +65,9 @@ footer li {
   width: 33%;
   padding: 20px;
 }
+.flexContainer img {
+  box-align: center;
+}
 
 /* My Work Section */
 .myWork {
